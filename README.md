@@ -24,7 +24,7 @@ Welcome to the **Healthy Dine Restaurant** Git repository! This project is focus
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/yourusername/healthy-dine-restaurant.git
-   
+
 2. **Navigate to the Project Directory:**
    ```bash
    cd healthy-dine-restaurant
