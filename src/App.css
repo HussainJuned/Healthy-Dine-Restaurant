@@ -3,6 +3,17 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  --olive-green: #8C8C3D;
+  --terracotta: #E27D60;
+  --Muted-Gold: #F4A261;
+  --Warm-Gray: #B0BEC5;
+  --Off-White: #FAFAFA;
+  --primary-foreground: #f4ce14;
+    --primary: #495e57;
+    --secondary: #ee9972;
+    --secondary-foreground: #fbdabb;
+    --highlight: #edefee;
+    --highlight-foreground: #333333;
 }
 
 .logo {
