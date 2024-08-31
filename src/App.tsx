@@ -1,8 +1,10 @@
 function App() {
   return (
     <>
-      <h1 className=" text-indigo-500 text-lg">React TypeScript App</h1>
-      <p>React TypeScript App with Webpack 5</p>
+      <div>
+        <h1 className="text-3xl m-5">React TypeScript App</h1>
+        <p className="text-2xl m-5">Start editing to see some magic happen :)</p>
+      </div>
     </>
   );
 }
