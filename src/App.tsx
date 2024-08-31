@@ -1,13 +1,19 @@
-import HomeIcon from '@mui/icons-material/Home';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Dishes from "./pages/Dishes";
 function App() {
   return (
     <>
-      <div>
-        <h1 className="text-3xl m-5">React TypeScript App</h1>
-        <p className="text-2xl m-5">Start editing to see some magic happen :)
-          <HomeIcon/> home
-        </p>
-      </div>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/dishes" element={<Dishes />} />
+        </Routes>
+      </Router>
     </>
   );
 }
