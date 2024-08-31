@@ -1,17 +1,13 @@
-import "./App.css";
+import { Outlet } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-      <nav>
-        <ul>
-          <li>
-            <a href="#">Home</a>
-            <a href="#">Menu</a>
-            <a href="#">About Us</a>
-          </li>
-        </ul>
-      </nav>
+      <Navbar />
+      <Outlet />
+      <Footer />
     </>
   );
 }
