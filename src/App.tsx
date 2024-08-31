@@ -1,19 +1,13 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Dishes from "./pages/Dishes";
+import Footer from "./components/Footer";
+
 function App() {
   return (
     <>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/dishes" element={<Dishes />} />
-        </Routes>
-      </Router>
+      <Navbar />
+      <Outlet />
+      <Footer />
     </>
   );
 }

@@ -3,7 +3,7 @@ import logo from "../assets/images/placeholder-logo.png";
 
 export default function Navbar() {
   return (
-    <nav className="bg-white shadow-lg">
+    <nav className="bg-white shadow-lg container">
       <div className="container mx-auto px-4 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center">
@@ -14,7 +14,7 @@ export default function Navbar() {
         <ul className="flex space-x-6">
           <li>
             <Link
-              to="/"
+              to="/home"
               className="text-gray-700 hover:text-gray-900 transition duration-300"
             >
               Home
@@ -33,21 +33,21 @@ export default function Navbar() {
               to="/dishes"
               className="text-gray-700 hover:text-gray-900 transition duration-300"
             >
-              Dishes
+              Menu
             </Link>
           </li>
         </ul>
 
         {/* Buttons */}
         <div className="flex space-x-4">
-          <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-300">
-            Login
-          </button>
           <button className="bg-gray-300 text-gray-700 px-4 py-2 rounded hover:bg-gray-400 transition duration-300">
-            Sign Up
+            Reservation
+          </button>
+          <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition duration-300">
+            Profile
           </button>
           <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition duration-300">
-            Order Now
+            Cart
           </button>
         </div>
       </div>
