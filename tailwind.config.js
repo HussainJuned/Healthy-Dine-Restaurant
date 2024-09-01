@@ -17,6 +17,9 @@ export default {
         highlightForeground: "#333333", // Dark Gray
       },
     },
+    container: {
+      padding: "12rem",
+    },
   },
   plugins: [],
 };
