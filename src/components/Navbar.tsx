@@ -3,11 +3,11 @@ import logo from "../assets/images/placeholder-logo.png";
 
 export default function Navbar() {
   return (
-    <nav className="bg-white shadow-lg container">
-      <div className="container mx-auto px-4 flex items-center justify-between">
+    <nav className="bg-white shadow-lg">
+      <div className=" flex items-center justify-between py-2 container">
         {/* Logo */}
         <div className="flex items-center">
-          <img src={logo} alt="Logo" className="h-10 w-auto" />
+          <img src={logo} alt="Logo" className="h-12 w-auto" />
         </div>
 
         {/* Navigation Links */}
@@ -30,7 +30,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              to="/dishes"
+              to="/menu"
               className="text-gray-700 hover:text-gray-900 transition duration-300"
             >
               Menu
