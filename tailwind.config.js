@@ -8,17 +8,23 @@ export default {
         body: ["Lora", "serif"],
       },
       colors: {
-        olive: "#8C8C3D", // Olive Green
-        primaryForeground: "#f4ce14", // Yellow
-        primary: "#495e57", // Dark Green
-        secondary: "#ee9972", // Light Orange
-        secondaryForeground: "#fbdabb", // Light Peach
-        highlight: "#edefee", // Light Gray
-        highlightForeground: "#333333", // Dark Gray
+        primary: "#f4ce14", // Yellow
+        secondary: "#495e57", // Dark Green
+        lightOrange: "#ee9972", // Light Orange
+        lightPeach: "#fbdabb", // Light Peach
+        lightGray: "#edefee", // Light Gray
+        darkGray: "#333333", // Dark Gray
       },
     },
     container: {
-      padding: "12rem",
+      center: true,
+      padding: {
+        DEFAULT: "1rem",
+        sm: "2rem",
+        lg: "4rem",
+        xl: "5rem",
+        "2xl": "8rem",
+      },
     },
   },
   plugins: [],

@@ -5,7 +5,7 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Dishes from "./pages/Dishes";
+import Menu from "./pages/Menu.tsx";
 
 const router = createBrowserRouter([
   {
@@ -21,8 +21,8 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
-        path: "/dishes",
-        element: <Dishes />,
+        path: "/menu",
+        element: <Menu />,
       },
     ],
   },
