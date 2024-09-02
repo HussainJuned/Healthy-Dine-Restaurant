@@ -26,6 +26,9 @@ export default {
         "2xl": "8rem",
       },
     },
+    body: {
+      color: "var(--text-primary)",
+    },
   },
   plugins: [],
 };
